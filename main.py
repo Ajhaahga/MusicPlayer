@@ -45,9 +45,9 @@ except ModuleNotFoundError:
 CHAT=Config.CHAT
 bot = Client(
     "Musicplayer",
-    Config.API_ID,
-    Config.API_HASH,
-    bot_token=Config.BOT_TOKEN,
+    Config.21842705,
+    Config.31fd2dbd1f1641a7a31a2829d2f80b30,
+    bot_token=Config.7280808721:AAGw_j3TCCYT6Gjsm2EMdc5Mw71jI0yq0aM,
     plugins=dict(root="plugins")
 )
 if not os.path.isdir("./downloads"):
